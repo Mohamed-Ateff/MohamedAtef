@@ -1837,7 +1837,7 @@ a {
   transition: all 0.3s 1s ease-out;
 }
 
-/* Looading Ends */
+/* Looading Ends */ 
 
 .btn.cta.bg {
   color: #161618;
@@ -1853,7 +1853,7 @@ a {
   transform-origin: left bottom;
   /* text-transform: uppercase; */
   transition: all 200ms ease-in-out;
-  /* background: none; */
+  font-weight: 700;
   background: white;
   transform: translate(0.5em, 0em);
 }
