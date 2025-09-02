@@ -993,10 +993,9 @@ a {
 }
 
 .move-hearts {
-  fill: white;
   position: absolute;
-  bottom: 10%;
-  left: 40%;
+  bottom: 11%;
+  left: 37%;
 }
 
 @media only screen and (max-width: 600px) {
