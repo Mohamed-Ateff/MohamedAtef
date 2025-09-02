@@ -336,7 +336,7 @@ a {
   transform: translateY(45%);
   margin: 0px !important;
   font-size: 16px !important;
-  background-color: #191b1d;
+  background-color: #0f1011;
 }
 .upwork_icon::before {
   height: 0px;
@@ -781,7 +781,7 @@ a {
   font-family: Arial, sans-serif;
   font-size: 16px;
   color: #ffffff;
-  background-color: #191b1d;
+  background-color: #0d0d0d;
   padding: 10px 13px;
   width: fit-content;
 }
@@ -958,7 +958,7 @@ a {
 .why_me .container .right_why_me .three-c {
   height: 250px;
   width: 250px;
-  background-color: #191b1d;
+  background-color: #0d0d0d;
   position: absolute;
   top: 57%;
   left: 10%;
@@ -1594,7 +1594,7 @@ a {
   min-height: 350px;
   background-color: #8bb8ff;
   padding: 30px;
-  background-color: #191b1d !important;
+  background-color: #0d0d0d !important;
   border-radius: 10px;
 }
 
@@ -1615,9 +1615,28 @@ a {
   border: 2px solid white;
   background-color: white;
   border-radius: 50px;
-  margin-top: 22px;
   font-weight: 600;
 }
+
+.contact_buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.contact_buttons .button-icon {
+  width: 47px;
+  height: 47px;
+  border-radius: 50px;
+  background-color: white;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+}
+
 .contact-button i {
   margin-left: 10px;
 }
