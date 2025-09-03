@@ -282,6 +282,7 @@ a {
   font-size: 1.25rem;
   cursor: pointer;
   transition: opacity 0.1s, transform 0.4s;
+  color: white;
 }
 
 .nav__close {
@@ -472,25 +473,16 @@ a {
   }
   .upwork_icon {
     color: black;
-    font-weight: 600 !important;
     height: 45px;
     width: 90%;
-    border-radius: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s ease;
-    position: relative;
-    transform: translateY(45%);
-    margin: 0px !important;
-    font-size: 16px !important;
-    background-color: #8bb8ff;
+    background-color: white;
   }
   .upwork_icon::before {
     height: 0px;
   }
   .upwork_icon svg {
     margin: 0px 8px;
+    fill: black !important;
   }
 }
 
@@ -1000,7 +992,6 @@ a {
 
 @media only screen and (max-width: 600px) {
   .why_me .container {
-    background-color: #191b1d;
     height: fit-content;
     border-radius: 10px;
     display: flex;
@@ -1008,7 +999,7 @@ a {
     align-items: center;
     flex-direction: column;
     flex-flow: column-reverse;
-    padding: 35px 25px 35px 25px;
+    padding: 0;
     position: relative;
     overflow: hidden;
     margin-top: 50px;
@@ -1028,28 +1019,78 @@ a {
     height: 100%;
   }
   .why_me .container .right_why_me .one-c {
-    height: 200px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
+    position: initial;
     border: 1px solid rgb(158, 158, 158);
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: initial;
   }
+  .why_me .container .right_why_me .one-c .d-flex {
+    width: fit-content;
+  }
+  .why_me .container .right_why_me .one-c .d-flex h4 {
+    font-size: 20px;
+  }
+  .why_me .container .right_why_me .one-c span {
+    font-size: 20px;
+  }
+  .text-why-me {
+    margin-left: 5px;
+    font-size: 18px;
+    margin-top: 0px;
+  }
+
   .why_me .container .right_why_me .two-c {
-    height: 200px;
-    width: 200px;
-    background-color: #202124;
+    height: 100%;
+    width: 100%;
     position: relative;
     top: 0%;
     left: 0%;
     margin-top: 20px;
+    position: initial;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: initial;
+  }
+
+  .why_me .container .right_why_me .two-c .d-flex {
+    width: fit-content;
+  }
+  .why_me .container .right_why_me .two-c .d-flex h4 {
+    font-size: 20px;
+  }
+  .why_me .container .right_why_me .two-c span {
+    font-size: 20px;
+  }
+
+  .why_img {
+    display: none;
   }
   .why_me .container .right_why_me .three-c {
-    height: 200px;
-    width: 200px;
-    background-color: #8bb8ff;
+    height: 100%;
+    position: initial;
+    width: 100%;
     position: relative;
     top: 0%;
     left: 0%;
     margin-top: 20px;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: initial;
   }
+
+  .why_me .container .right_why_me .three-c .d-flex {
+    width: fit-content;
+  }
+  .why_me .container .right_why_me .three-c .d-flex h4 {
+    font-size: 20px;
+  }
+  .why_me .container .right_why_me .three-c span {
+    font-size: 20px;
+  }
+
   .move-hearts {
     display: none;
   }
@@ -1223,10 +1264,6 @@ a {
 @media (max-width: 600px) {
   .work {
     width: 100%;
-    background-color: #191b1d;
-    border-radius: 15px;
-    padding: 35px 20px;
-    margin-bottom: 40px;
   }
   .work-title {
     display: flex;
@@ -1386,7 +1423,7 @@ a {
 @media only screen and (max-width: 768px) {
   .skills .container .card-skills {
     padding: 15px;
-    width: 48%;
+    width: 48% !important; 
   }
   .All-skills-section {
     width: 100% !important;
@@ -1627,14 +1664,14 @@ a {
 }
 
 .contact_buttons .button-icon {
-  width: 47px;
-  height: 47px;
+  min-width: 47px;
+  min-height: 47px;
   border-radius: 50px;
   background-color: white;
   margin-left: 10px;
   display: flex;
   justify-content: center;
-    align-items: center;
+  align-items: center;
 }
 
 .contact-button i {
@@ -1837,7 +1874,7 @@ a {
   transition: all 0.3s 1s ease-out;
 }
 
-/* Looading Ends */ 
+/* Looading Ends */
 
 .btn.cta.bg {
   color: #161618;
